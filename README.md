@@ -1,25 +1,49 @@
-# JS Dev Kit for FileMaker Developers
+# Manipulating Data in FileMaker with JavaScript
 
-*Develop, Render, and Deploy JavaScript for a FileMaker App*
+Learn how to manipulate data in FileMaker using JavaScript. 
 
-# This Kit
-## What it does
-This environment allows a FileMaker developer to start coding their widget and see the results right away in a FileMaker file. Once done developing, the can be inlined and pushed to the FileMaker file for use offline.
-<br/>
-It's a template file, so you can use to start other projects.
-## Consists of
-- A repository template on Github
-- A basic html / JS set up.
-- package.json file for install
-- A FileMaker file to show the widget rendered
-- Scripts to build and upload the inlined code to FileMaker
-## TO GET STARTED Using this file
-1. `npm install`
-2. `npm start`
-3. Open the jsDev.fmp12 file.
-4. Allow it to work in Dev mode.
+# General Links
+## Our Code examples
+Code examples: https:code-examples.jsinfm.com/manipulating-data
+## A bit about the styling: Bootstrap framework
+Bootstrap Grid: https://getbootstrap.com/docs/5.0/layout/grid/
+Bootstrap Colors and Backgrounds: https://getbootstrap.com/docs/5.0/utilities/colors/
+Bootstrap Buttons: https://getbootstrap.com/docs/5.0/components/buttons/
 
-At this point you should see the web viewer on the layout load up with the HTML and JavaScript here. Edit the JavaScript or the HTML and you'll see the render in the web viewer update.
+## JavaScript Object Methods
+Object.keys: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+Object.values: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values
+Object.entries: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+Object.assign: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 
-## Use this kit
-Now you're ready to use this kit to create awesome JS widgets.
+## JavaScript Array Methods
+Array.prototype.push(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+Array.prototype.pop(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+Array.prototype.shift(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+Array.prototype.unshift(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+Array.prototype.length: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+Array.prototype.filter(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+Array.prototype.map(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+Array.prototype.forEach(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+Array.prototype.find(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+
+# Table of Contents
+## Manipualating Objects
+1.targeting an element in the DOM to update its content
+2. Manipulating objects
+3. path to values in object.
+4. Getting the keys of an object
+5. Adding and removing properties from an object
+6. Destructuring objects
+
+## Manipulating arrays
+1. Adding and removing elements from an array
+2. Getting to an element in the array
+3. The length of the array
+4. Filtering the array by a value
+5. Creating a new array from the old
+6. Updating each element of the array
+7. Finding unique methods
+8. Chaining methods
+
+# Real-life examples
